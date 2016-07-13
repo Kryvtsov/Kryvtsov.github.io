@@ -1,0 +1,74 @@
+/* * {margin: 0;} - универсальный селектор. Мы его использовать не будем */
+
+/*Селекторы тегов*/
+body {color: #272727; background: #efefef url(images/bg.png); }
+h2 {border-bottom: 1px dashed #ccc;}
+
+/*Классы*/
+.red {color: red;}
+.green {color: green;}
+.blue {color: blue;}
+.black {color: black;}
+b.purple {color: purple;}
+.fblock {background: #9FB009; border: 1px solid #919E12;}
+.tag {color: #1D6FD3; font-weight: bold;}
+.border {width: 300px; border: 10px solid #1067B6; background: #409BEE}
+.border2 {width: 300px; background: #efefef;
+border-top: 10px double #1067B6; 
+border-bottom: 5px dotted #EC9513; 
+border-left: 15px solid #1B24CF;
+border-right: 7px double #24A61E;
+}
+
+.block {background: #efefef; border: 1px solid #ccc; width: 500px;}
+.block2 {background: #9FB009; border: 1px solid #919E12; width: 50%;}
+.block3 {background: #9FB009; border: 1px solid #919E12; width: 300px; padding: 20px;}
+.block4 {background: #efefef; border: 1px solid #cccccc; width: 200px; margin: 30px ; float: left;}
+.block5 {background: #9FB009; border: 1px solid #919E12; width: 200px; margin: 30px; float: left;}
+.clear {clear: both;}
+
+/*Идентификаторы*/
+#red {color: red;}
+#green {color: green;}
+#blue {color: blue;}
+#black {color: black;}
+#orange {color: orange;}
+
+/*Селекторы атрибутов */
+
+[width] {border-color: red;}
+[width="700"] {border-color: green ;}
+[title="И чего он такого желает???"] {color: yellow;}
+[title="fazan"] {color: purple;}
+p.primer i[title] {color: yellow;}
+
+/*Контекстные селекторы*/
+p.primer b i {color: purple;}
+p.primer b i u {color: red;}
+
+/*Дочерние селекторы*/
+p.primer b > u {color: green;} 
+
+/*Соседрние селекторы */
+
+p.primer b + i {color: blue;}
+p.primer i + u {color: yellow;}
+p.primer i+u+s {color: red;}
+
+/*Домашнее задание 2*/
+p.dz1 b {color: yellow;} 
+p.dz1 b + s {color: purple;}
+p.dz1 i {color: green;} 
+p.dz1 i + u {color: red;}
+p.dz1 u  {color: blue;} 
+p.dz1 u > s {color: gray;} 
+p.dz1 s > b {color: gray;} 
+
+p.dz2 b > i {color: red;}
+p.dz2 b > i + i {color: orange;}
+p.dz2 b > i + i +i {color: yellow;}
+p.dz2 b > i +i + i +i {color: green;}
+p.dz2 b > i +i +i + i +i {color: aqua;}
+p.dz2 b > i +i +i + i +i+i {color: blue;}
+p.dz2 b > i +i +i + i +i+i +i{color: purple;}
+
