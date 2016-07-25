@@ -59,6 +59,7 @@
 						<li><a href="week5.html"> Неделя 5 - Старший класс </a></li>
 						<li><a href="week6.html"> Неделя 6 - Выпускники</a></li>
 						<li><a href="week7.html"> Неделя 7 - Реформаторы</a></li>
+						<li><a href="week8.html"> Неделя 8 - Прогрессоры</a></li>
 					</ul>
 				</div>
 			</div>
@@ -68,8 +69,8 @@
 						<li><a href="#d1"> День 1 - Бэкграунды.</a></li>
 						<li><a href="#d2"> День 2 - Градиенты.</a></li>
 						<li><a href="#d3"> День 3 - Радиальное счастье.</a></li>
-						<li><a href="#d4"> День 4 - . </a></li>
-						<li><a href="#d5"> День 5 - .</a></li>				
+						<li><a href="#d4"> День 4 - Светофор. </a></li>
+						<li><a href="#d5"> День 5 - Красивая анимация.</a></li>				
 					</ul>
 				</div>
 			
@@ -163,27 +164,64 @@
 						<div class="rgrad2"></div>
 						<div class="important">
 							<p>Если фигура "квадрат", то мы не можем влиять на форму радиального градиента (она будет круглой)</p>
+						</div> 
+
+						<p>Позиционирование градиента.</p>
+						<div class="rgrad3"></div>
+						<p>Размеры градиента.</p>
+						<div class="rgrad4"></div>
+						<p>Синтаксис: radial-gradient(circle <i>место куда стремится градиент</i> at <i>смещение</i>, цвет от, цвет до) </p>
+						<ul> место:
+							<li><span class="style">closest-side</span> тянется к самой ближней стороне</li>
+							<li><span class="style">farthest-side</span> ...к дальней стороне</li>
+							<li><span class="style">closest-corner</span> угол</li>
+							<li><span class="style">farthest-corner</span> угол</li>
+						</ul>
+						<p>Несколько градиентов и их размеры.</p>
+						<div class="rgrad5"></div>
+
+						<h3 >Домашнее задание:</h3>
+
+						<p>Для всех:</p>
+						<div class="home_rgrad1"></div>
+						<p>Для продвинутых:</p>
+						<div class="home_rgrad2"></div>
+						
+					</div>
+				</section>
+				<section>
+					<div class="day">
+						<h2 id="d4"> День 4. Светофор. </h2>
+						<p>В CSS3 можно задавать полупрозрачные цвета при помощи свойств задания цвета RGBA и HSLA</p>
+						<p></p>
+						<div class="svet"></div>
+
+						
+					</div>
+				</section>
+				<section>
+					<div class="day">
+						<h2 id="d5"> День 5. Красивая анимация</h2>
+						<p>Когда мы используем псевдоклассы на подобие <span class="style">hover</span>, мы можем анимировать смену стилей.</p>
+						<p><span class="style">transition</span> - позволяет анимировать переход в стилях.</p>
+						<div class="trans"> transition: width 2s ease-in 0.5s;</div>
+						<div class="important">
+							<p>Иногда свойство плавного перехода не работает когда мы не указываем точную величину.</p>
 						</div>
 
-						<p>Позиционирование.</p>
-						<div class="rgrad3"></div>
+						<p><span class="style">transition-duration</span> - указывает время проигрывания анимации. Значения в секундках.</p>
+						<p><span class="style">transition-property</span> - указывает стили, к которым применятся анимация.</p>
+						<p><span class="style">transition-delay</span> - указывает время задержки перед анимацией.</p>
+						<p><span class="style">transition-timing-function</span> - указывает тип анимации.</p>
+
+						<p>Все эти свойства мы можем записывать отдельно, а можем и одним.</p>
+						<div class="code">
+							transition: transition-property transition-duration transition-timing-function transition-delay;
+						</div>
 
 
-						
-					</div>
-				</section>
-				<section>
-					<div class="day">
-						<h2 id="d4"> День 4. .</h2>
-						<p></p>
+						<div class="trans2"> transition</div>
 
-						
-					</div>
-				</section>
-				<section>
-					<div class="day">
-						<h2 id="d5"> День 5. .</h2>
-						<p></p>
 
 						
 					</div>
