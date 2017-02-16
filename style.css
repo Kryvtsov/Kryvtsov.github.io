@@ -76,3 +76,4 @@ p.otstup {padding: 0 0 0 20px;}
 .help {background: #83E79F url(images/help.png) no-repeat 10px center; border: #618DF1 solid 1px; padding: 0 0 0 50px; margin: 20px; font-family:  monospace; font-size: 14px; box-shadow: 5px 5px 15px 2px #444 ;}
 .mistake {color: red;}
 
+hello {height: 50px; background: linear-gradient(#83ACE8, #8DC8A5); color: #0A0E55; padding: 0 5px; margin: 0;font-family: Cuprum; font-size: 18px; display: none;}
